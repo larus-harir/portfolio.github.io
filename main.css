@@ -1,4 +1,4 @@
-        @font-face {
+@font-face {
             font-family: 'Cafe24Oneprettynight';
             src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Oneprettynight.woff') format('woff');
             font-weight: normal;
@@ -86,7 +86,6 @@
             height: 100%;
             z-index: 2;
             justify-content: space-around;
-            align-items: space-around;
         }
         
         .logo {
@@ -132,7 +131,7 @@
             margin: 0;
             text-align: center;
             align-items: center;
-            font-size: 2em;
+            font-size: 1.5em;
         }
         
         #mind .text {
