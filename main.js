@@ -24,6 +24,31 @@
                 }
             });
 
+            var $intro = $('#introduce').offset();
+            $("#introBtn").click(function() {
+                $('html, body').animate({
+                    scrollTop: $intro.top
+                }, 400)
+            })
+            var $mind = $('#mind').offset();
+            $("#mindBtn").click(function() {
+                $('html, body').animate({
+                    scrollTop: $mind.top
+                }, 400)
+            })
+            var $certificate = $('#certificate').offset();
+            $("#certiBtn").click(function() {
+                $('html, body').animate({
+                    scrollTop: $certificate.top
+                }, 400)
+            })
+            var $activity = $('#activity').offset();
+            $("#actiBtn").click(function() {
+                $('html, body').animate({
+                    scrollTop: $activity.top
+                }, 400)
+            })
+
             $('#certificate img, #project img, #club img').hover(function() {
                     $(this).stop().css({
                         "box-shadow": "2px 4px 10px 4px coral",
