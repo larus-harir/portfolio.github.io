@@ -1,4 +1,4 @@
-$(function() {
+        $(function() {
             var $main = $("main").height();
             var $header = $("header");
 
@@ -24,7 +24,7 @@ $(function() {
                 }
             });
 
-            $('#certificate img, #project img').hover(function() {
+            $('#certificate img, #activity img').hover(function() {
                     $(this).stop().animate({
                         "transform": "scale(1.2,1.2)",
                     }, 400);
