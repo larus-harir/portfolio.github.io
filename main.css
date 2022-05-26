@@ -1,4 +1,4 @@
- @font-face {
+        @font-face {
             font-family: 'MinSans-Medium';
             src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
             font-weight: normal;
@@ -14,7 +14,7 @@
         }
         
         p {
-            font-weight: 500;
+            font-weight: 450;
             font-size: 16px;
         }
         
@@ -52,8 +52,7 @@
             padding-left: 10%;
         }
         
-        header a {
-            text-decoration: none;
+        header p {
             font-size: 1.2em;
             font-weight: bold;
             color: black;
