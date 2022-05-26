@@ -1,15 +1,15 @@
 @font-face {
-            font-family: 'Cafe24Oneprettynight';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Oneprettynight.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-        }
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
         
         * {
             margin: 0 auto;
             padding: 0;
             list-style: none;
-            font-family: 'Cafe24Oneprettynight';
+            font-family: 'MinSans-Medium';
             letter-spacing: 1.5px;
         }
         
