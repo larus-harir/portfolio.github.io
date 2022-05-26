@@ -24,18 +24,12 @@
                 }
             });
 
-            $('#certificate img, #activity img').hover(function() {
-                    $(this).stop().animate({
-                        "transform": "scale(1.2,1.2)",
-                    }, 400);
+            $('#certificate img, #project img, #club img').hover(function() {
                     $(this).stop().css({
                         "box-shadow": "2px 4px 10px 4px coral",
                     });
                 },
                 function() {
-                    $(this).stop().animate({
-                        "transform": "scale(1.0,1.0)",
-                    }, 200);
                     $(this).stop().css({
                         "box-shadow": "none",
                     });
