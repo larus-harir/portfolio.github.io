@@ -99,10 +99,11 @@
                 }
             });
 
-            var x = [-10, 10];
-            var y = [0, 0]
-            var trans = [800, 900, 1000, 1100]
+
+            var trans = [800, 900, 1000, 1100];
             $("#certificate span").click(function() {
+                var x = [-10, 10];
+                var y = [0, 0];
                 for (var i = 0; i < 8; i++) {
                     $(`.certificate${i+1}`).stop().animate({
                         transform: `translate(${x[i]}%, ${y[i]}%)`,
@@ -110,8 +111,11 @@
                     }, trans[i])
                 }
             });
-
+                
+            
             $("#project span").click(function() {
+                var x = [-25, -10, 10, 25];
+                var y = [0, 0, 0, 0];
                 for (var i = 0; i < 8; i++) {
                     $(`.project${i+1}`).stop().animate({
                         transform: `translate(${x[i]}%, ${y[i]}%)`,
