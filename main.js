@@ -23,6 +23,10 @@
                     }, 200)
                 }
             });
+                
+            $(".logo h1").click(function() {
+                location.reload();
+            })
 
             var $intro = $('#introduce').offset();
             $("#introBtn").click(function() {
