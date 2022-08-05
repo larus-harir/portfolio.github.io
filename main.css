@@ -201,6 +201,10 @@
             text-align: center;
             opacity: 0;
         }
+
+        #certificate li {
+            width: 25%;
+        }
         
         #certificate li h3,
         #activity li h3 {
